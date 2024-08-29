@@ -1,5 +1,10 @@
-// Priority arbiter
-// port[0] - highest priority
+/////////////////////////////////////////////////////////
+//                    Biplab Das S                     //
+//               Fixed Priority Arbiter                //
+/////////////////////////////////////////////////////////
+
+// Fixed Priority arbiter
+// port[0] - highest priority 
 
 module fixed_priority_arbiter #(
     parameter NUM_PORTS = 4             //parameter to be driven
